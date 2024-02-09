@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 8%, rgba(9, 9, 121, 1) 100%);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    color: white;
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: #daa520;
+    border-radius: 18px;
+}
+
+.topContact {
+    width: 100%;
+    color: #f5d000;
+    background-color: black;
+}
+
+#topContact {
+    width: 360px;
+    margin: 0 auto;
+    color: #f5d000;
+    text-align: right;
+    display: block;
+}
+
+.topContact span {
+    width: 20%;
+    height: 100%;
+    color: transparent;
+}
+
+header img {
+    width: 100px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.linkTree {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkTree a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid whitesmoke;
+    border-radius: 54px;
+    padding: 8px;
+    color: #f5d000;
+    font-size: 2rem;
+    margin: 3px 0;
+    text-decoration: none;
+}
+
+.linkTree a:hover {
+    background-color: rgba(245, 245, 245, 0.733);
+    color: black;
+}
+
+.linkTree p {
+    width: 95%;
+    text-align: center;
+}
+
+.linkTree div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkTree img {
+    width: 40px;
+    height: 100%;
+    border-radius: 12px;
+}
